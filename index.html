@@ -1,0 +1,272 @@
+<!doctype html>
+<html>
+<head>
+<title> Survey Form </title>
+
+<meta name="viewport" content="width=device=width, initial=scale=1.0">
+
+<link rel= "stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+
+<style>
+
+
+*{
+margin:0;
+padding:0;
+}
+
+body{
+background-image: url(https://c4.wallpaperflare.com/wallpaper/969/643/744/texture-wallpaper-preview.jpg);
+background-position:center;
+background-size:cover;
+font-family:cursive;
+margin-top:40px;
+}
+
+
+
+.regform{
+
+width:800px;
+background-color: rgb(0,0,0,0.6);
+border-radius: 10px;
+margin:auto;
+color:#FFFFFF;
+text-align:center;
+border-radius:15px 15px Opx Opx;
+}
+
+.main{
+width:800px;
+background-color:rgb(0,0,0,0.5);
+border-radius: 10px;
+margin:auto;
+}
+
+form{
+padding:4px;
+}
+
+
+#name{
+width:100%;
+height:100px;
+}    
+
+.name{
+margin-left:25px;
+margin-top:30px;
+width:125px;
+color:white;
+font-size:18px;
+font-weight:700;
+}
+
+.firstname{
+position: relative;
+left:200px;
+top:-37px;
+line-height: 40px;
+border-radius: 6px;
+padding:0 22px;
+font-size:16px;
+}
+
+
+.lastname{
+position:relative;
+left:410px;
+top:-80px;
+line-height: 40px;
+border-radius: 6px;
+padding:0 22px;
+font-size:16px;
+color:#555;
+}
+
+.firstlabel{
+position: relative;
+color:#E5E5E5;
+text-transform:capitalize;
+font-size:14px;
+left:203px;
+top:-45px;
+}
+
+
+.lastlabel{
+position: relative;
+color: #E5E5E5;
+text-transform: capitalize;
+font-size : 14px;
+left:175px;
+top:-45px;
+
+}
+
+
+.company{
+position: relative;
+left: 200px;
+top:-37px;
+line-height:40px;
+width:480px;
+border-radius:6px;
+padding:0 22px;
+font-size:16px;
+color: #555
+}
+
+.email{
+position:relative;
+left: 200px;
+top:-37px;
+line-height: 40px;
+width:480px;
+border-radius: 6px;
+padding: 0 22px;
+font-size: 16px;
+color: #555;
+}
+
+.Code{
+position: relative;
+left: 200px;
+top:-37px;
+line-height: 40px;
+width:95px;
+border-radius: 6px;
+padding: 0 22px;
+font-size: 16px;
+color: #555;
+
+}
+
+.number{
+position: relative;
+left: 200px;
+top:-37px;
+line-height: 40px;
+width:255px;
+border-radius: 6px;
+padding: 0 22px;
+font-size: 16px;
+color: #555;
+
+}
+
+
+.area-code{ 
+position: relative;
+color: #E5E5E5;
+text-transform:capitalize;
+font-size:16px;
+left:99px;
+top:-4px;
+}
+
+.phone-number{
+position: relative;
+color: #E5E5E5;
+text-transform:capitalize;
+font-size:16px;
+left:-60px;
+top:-2px;
+
+}
+
+.option{
+position:relative;
+left:200px;
+top:-37px;
+line-height: 40px;
+width:532px;
+height:40px;
+border-radius: 6px;
+padding: 0 22px;
+font-size: 16px;
+color: #555;
+outline: none;
+overflow: hidden; 
+}
+
+
+.option option{
+
+font-size: 20px;
+
+}
+
+#coustomer {
+
+ margin-left: 25px;
+ color:white;
+ font-size: 18px; 
+}
+
+button{
+
+background-color:darkslategrey;
+display:block;
+margin:auto;
+text-align: center;
+border-radius: 10px;
+border: 2px solid #154a5b;
+padding: 9px 50px;
+outline:none;
+color:white;
+cursor:pointer;
+transition:0.5px;
+
+}
+
+
+.button: hover{
+
+background-color:#199dc8;
+
+}
+
+
+
+
+</style>
+
+<body>
+<div class="regform"><h1> Registration Form </h1></div>
+<div class= "main">
+<form>
+<div id="name">
+<h2 class="name">Name</h2>
+<input class="firstname" type="rext" name="first_name"><br>
+<label class="firstlabel">first name</label>
+<input class="lastname" type="text" name="last_name">
+<label class="lastlabel">last name</label>
+</div> 
+<h2 class= "name">Company</h2>
+<input class="company" type="text" name="company">
+<h2 class="name">Email</h2>
+<input class="email" type="text" name="email">
+<h2 class="name">Phone</h2>
+<input class="Code" type="text" name="area_code">
+<label class="area-code">Area Code</label> 
+<input class="number" type="text" name="phone">
+<label class="phone-number">Phone Number</label>
+<h2 class="name">Profession</h2>
+<select class="option" name="subject">
+
+<option disabled="disabled" selected=" selected">--choose option</option>
+<option> Student</option>
+<option> Self-Employed</option>
+<option> Working Professional</option>
+</div>
+</select>
+</form>
+
+<button type="button" onclick="alert('Your response has been recorded')"> Submit </button>
+
+</body>
+</html> 
+
+
